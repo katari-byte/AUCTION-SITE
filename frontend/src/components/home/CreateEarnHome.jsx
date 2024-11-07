@@ -8,10 +8,10 @@ const CreateEarnHome = () => {
     <div className="flex flex-col gap-4 mb-10 px-11 py-20 mt-20 justify-center bg-theme-bg rounded-[20px]  bg-cover bg-hero-img">
     <div>
       <h2 className="mb-2 text-4xl font-medium">
-        Create, Sell & Earn at <span className="uppercase text-theme-color">B</span>id
-              <span className="uppercase text-theme-color">F</span>air
+        Create, Sell & Earn at <span className="uppercase text-theme-color">A</span>rt
+              <span className="uppercase text-theme-color">H</span>aven
       </h2>
-      <span>Start Selling your Amazing Products now!</span>
+      <span>Start Selling your Own Products now!</span>
     </div>
     <Link
       className="hover:scale-105 bg-theme-color px-5 py-3 rounded-xl text-white cursor-pointer font-bold tracking-wide hover:bg-hover transition-all duration-200  w-fit"

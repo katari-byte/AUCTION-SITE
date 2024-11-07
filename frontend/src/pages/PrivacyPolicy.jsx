@@ -9,7 +9,7 @@ const PrivacyPolicy = () => {
           <div className="flex gap-2 font-medium pt-2">
             <Link
               to="/"
-              className=" no-underline hover:text-theme-color transition-all"
+              className="no-underline hover:text-theme-color transition-all"
             >
               Home
             </Link>
@@ -22,107 +22,95 @@ const PrivacyPolicy = () => {
 
           <div>
             <h2 className="font-bold text-2xl text-heading-color">
-              Privacy Policy
+              Privacy Policy Overview
             </h2>
             <p className="text-body-text-color pt-5">
-              Real-Time Online Auction system takes the privacy of its users
-              seriously. This Privacy Policy outlines the types of information
-              we collect, how we use it, and the steps we take to protect your
-              personal data.
+              At Real-Time Online Auction, we prioritize the privacy and security 
+              of our users. This policy explains the types of data we gather, 
+              our methods of use, and our approach to safeguarding your personal information.
             </p>
           </div>
-          {/* Collect Information */}
+          {/* Information Collection */}
           <div>
             <h2 className="font-bold text-2xl text-heading-color">
-              Collect Information
+              Information We Collect
             </h2>
 
             <ul className="flex flex-col gap-2 list-disc pl-4 text-body-text-color pt-5">
               <li>
                 <span className="font-semibold">Personal Information:</span>{" "}
-                This includes information that can be used to identify you, such
-                as your name, email address, phone number, billing address, and
-                shipping address. You provide this information when you register
-                for an account, list an item for auction, place a bid, or
-                contact us.
+                This includes identifiable information, such as your name, 
+                email, phone number, billing address, and shipping details. 
+                You share this information with us during account registration, 
+                auction participation, or customer support interactions.
               </li>
               <li>
                 <span className="font-semibold">
                   Non-Personal Information:{" "}
                 </span>
-                This includes information that cannot be used to identify you,
-                such as your browsing history, IP address, and device
-                information. This information is collected automatically when
-                you use our website.
+                This data, like browsing patterns, IP addresses, and device details, 
+                is collected automatically and helps us understand website usage 
+                without identifying individual users.
               </li>
             </ul>
           </div>
           {/* Usage of Information */}
           <div>
             <h2 className="font-bold text-2xl text-heading-color">
-              Usage of Information
+              How We Use Your Information
             </h2>
             <p className="text-body-text-color pt-5">
-              We use the information we collect for the following purposes:
+              We utilize collected data for several purposes, including:
             </p>
             <ul className="flex flex-col gap-2 list-disc pl-4 text-body-text-color pt-5">
               <li>
                 <span className="font-semibold">
-                  To provide and improve our services:
+                  Service Provision and Enhancement:
                 </span>{" "}
-                We use your information to allow you to participate in
-                auctions, process your transactions, send you auction
-                notifications, and provide customer support.
+                Your information enables us to facilitate auctions, process 
+                transactions, send relevant notifications, and offer support.
               </li>
               <li>
                 <span className="font-semibold">
-                  To personalize your experience:{" "}
+                  Personalization:{" "}
                 </span>
-                We use your information to personalize your experience on our
-                website, such as by recommending auctions you might be
-                interested in.
+                We tailor your experience by suggesting auctions and content 
+                based on your interests and past activity.
               </li>
               <li>
                 <span className="font-semibold">
-                  To send you marketing communications:{" "}
+                  Marketing and Communications:{" "}
                 </span>
-                We may use your contact information to send you marketing
-                communications, such as newsletters and promotional offers. You
-                can opt out of receiving these communications at any time.
-              </li>
-              <li>
-                <span className="font-semibold">
-                  To send you marketing communications:{" "}
-                </span>
-                We may use your contact information to send you marketing
-                communications, such as newsletters and promotional offers. You
-                can opt out of receiving these communications at any time.
+                Occasionally, we may send updates, newsletters, and promotions 
+                via email. You may opt out of these communications at any time.
               </li>
             </ul>
           </div>
-          {/* Usage of Information */}
+          {/* Data Security */}
           <div>
             <h2 className="font-bold text-2xl text-heading-color">
-              Security of User Data
+              Data Security
             </h2>
             <p className="text-body-text-color pt-5">
-              We take steps to protect your personal information from
-              unauthorized access, use, or disclosure. These steps include:
+              We employ a range of measures to protect your data from unauthorized 
+              access, use, or exposure, including:
             </p>
             <ul className="flex flex-col gap-2 list-disc pl-4 text-body-text-color pt-5">
-              <li>Storing your information on secure servers</li>
-              <li>Using encryption to protect your data</li>
-              <li>
-                Limiting access to your information to authorized personnel
-              </li>
+              <li>Secure servers for data storage</li>
+              <li>Encryption technologies to safeguard information</li>
+              <li>Controlled access, restricted to authorized personnel only</li>
             </ul>
           </div>
+          {/* Copyright and Intellectual Property */}
           <div>
             <h2 className="font-bold text-2xl text-heading-color">
-              Copyright and Security
+              Intellectual Property and Website Security
             </h2>
             <p className="text-body-text-color pt-5">
-              Our Real-Time Online Auction system respects the intellectual property rights of others. We prohibit users from listing items that infringe on the copyright or trademark of others. We also take steps to protect the security of our website from unauthorized access.
+              Our platform respects and enforces intellectual property rights. 
+              Users are prohibited from listing items that infringe on copyrights 
+              or trademarks. We are also committed to securing our website against 
+              unauthorized access to ensure a safe user experience.
             </p>
           </div>
         </div>

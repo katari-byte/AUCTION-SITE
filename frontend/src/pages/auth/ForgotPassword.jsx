@@ -42,8 +42,8 @@ const ForgotPassword = () => {
     <div className="flex h-screen w-full items-center justify-center bg-[#061224] text-[#7386a8]">
       <div className="flex w-[90%] flex-col items-center rounded-xl bg-[#071B36] py-8 sm:w-2/5 sm:px-6">
         <h1 className="text-3xl font-bold text-white">
-          <span className="uppercase text-[#00A3FF]">B</span>id
-          <span className="uppercase text-[#00A3FF]">F</span>air
+          <span className="uppercase text-[#00A3FF]">A</span>rt
+          <span className="uppercase text-[#00A3FF]">H</span>aven
         </h1>
         <p className="m-2 text-xl">Reset your account password</p>
         <p className="my-3 h-[1px] w-[80%] bg-[#747d9340]"></p>
@@ -54,7 +54,7 @@ const ForgotPassword = () => {
           <label className="my-1 text-lg">Email Address</label>
           <input
             type="email"
-            placeholder="Your Email"
+            placeholder="Please Enter Your Email address"
             className="focus:border-1 rounded text-white border-[1px] focus:border-[#00A3FF]  border-none focus:border-1 focus:border-solid bg-[#0E294D] px-5 py-3 outline-none  mb-2 placeholder-body-text-color"
             name="email"
             value={email}
